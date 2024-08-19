@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="side-bar">
+        <div class="container">
+            <div class="image-container">
+                <img src="images/eLogo.png" alt="">
+            </div>
+            <ul>
+                <li class="item" onclick="navigate(0)">home</li>
+                <li class="item" onclick="navigate(1)">units</li>
+                <li class="item" onclick="navigate(2)">buildings</li>
+                <li class="item" onclick="navigate(3)">bank cheque and cache management</li>
+                <li class="expend-option item" onclick="navigate(4)">contracts <i class="bi bi-caret-right-fill"></i>
+                    <div class="expended-options">
+                        <ul>
+                            <li class="item-expedended">owner contracts</li>
+                            <li class="item-expedended">tenants contract</li>
+                        </ul> 
+                    </div></li>
+                <li class="expend-option item"  onclick="navigate(5)">revenue models <i class="bi bi-caret-right-fill"></i>
+                    <div class="expended-options">
+                        <ul>
+                            <li class="item-expedended">credit sale invoice</li>
+                            <li class="item-expedended">receipt voucher</li>
+                            <li class="item-expedended">sales invoice</li>
+                            <li class="item-expedended">credit note</li>
+                        </ul> 
+                    </div>
+                </li>
+                <li class="expend-option item" onclick="navigate(6)">purchase & expenses <i class="bi bi-caret-right-fill"></i>
+                    <div class="expended-options">
+                        <ul>
+                            <li class="item-expedended">purchase invoice</li>
+                            <li class="item-expedended">payement voucher</li>
+                            <li class="item-expedended">expenses voucher</li>
+                            <li class="item-expedended">debit note</li>
+                        </ul> 
+                    </div></li>
+                <li class="expend-option item" onclick="navigate(7)">general accounting <i class="bi bi-caret-right-fill"></i>
+                    <div class="expended-options">
+                        <ul>
+                            <li class="item-expedended">generale ledger</li>
+                            <li class="item-expedended">fund transaction</li>
+                        </ul> 
+                    </div></li>
+                <li class="expend-option item" onclick="navigate(8)">buissness setup <i class="bi bi-caret-right-fill"></i>
+                    <div class="expended-options">
+                        <ul>
+                            <li class="item-expedended">chart of accounts</li>
+                            <li class="item-expedended">contact</li>
+                            <li class="item-expedended">services</li>
+                            <li class="item-expedended">payement types</li>
+                            <li class="item-expedended">bank</li>
+                        </ul> 
+                    </div></li>
+                <li class="expend-option item" onclick="navigate(9)">english</li>
+            </ul>
+        </div>
+    </div>
+    <script src="scriptt.js"></script>
+</body>
+</html>
